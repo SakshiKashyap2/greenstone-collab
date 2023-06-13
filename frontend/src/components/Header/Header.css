@@ -1,18 +1,28 @@
 .head{
-    background-color:aquamarine;
+    /* background-color:aquamarine; */
     /* width: 100%; */
     display: flex;
     justify-content:space-around;
+    flex-wrap: wrap;
     padding: 30px 20px 30px 20px;
 
 }
 
 .head div{
-    background-color:blueviolet;
+    /* background-color:blueviolet; */
+    margin: 0 18px 0 18px;
 }
 
 div.head div:nth-child(2){
     /* background-color:antiquewhite; */
     display: flex;
-    margin: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    
+}
+div.head div:nth-child(2) div{
+    display: flex;
+    align-items: center;
 }
