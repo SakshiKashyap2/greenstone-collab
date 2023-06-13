@@ -1,30 +1,48 @@
 import React from 'react';
 import "./Navigation.css"
 
-import UnfoldMoreDoubleIcon from '@mui/icons-material/UnfoldMoreDouble';
 import Button from '@mui/material/Button';
 import SearchIcon from '@mui/icons-material/Search';
+import { Link } from 'react-router-dom';
 
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
+
+
+
 const Navigation = () => {
+
+    const linkStyle = {
+        textDecoration: 'none',
+        margin: "0 10px 0 10px"
+
+    }
+
     return (
         <div className="navigation">
             <div>
-                <a href="#">Home Page</a>
-                <a href="#">Find a Job</a>
-                <a href="#">Find Staff</a>
-                <a href="#">Services</a>
-                <a href="#">About</a>
-                <a href="#">News</a>
-                <a href="#">Contact</a>
-                <a href="#"><SearchIcon/></a>
+                <Link to='/' style={linkStyle}>
+                    <h4>Home Page</h4>
+                </Link>
+                <Link to='/findjobs' style={linkStyle}>
+                    <h4>Find a Job</h4>
+                </Link>
+                <Link to='/' style={linkStyle}>
+                    <h4>Find Staff</h4>
+                </Link>
+                <Link to='/' style={linkStyle}>
+                    <h4>Services</h4>
+                </Link>
+                <Link to='/' style={linkStyle}>
+                    <h4>About</h4>
+                </Link>
+                <Link to='/' style={linkStyle}>
+                    <h4>News</h4>
+                </Link>
+                <Link to='/' style={linkStyle}>
+                    <h4>Contact</h4>
+                </Link>
+                <Link to='/' style={linkStyle}>
+                    <h4><SearchIcon /></h4>
+                </Link>
             </div>
             <div>
                 <Button variant="outlined" style={{
