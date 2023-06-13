@@ -54,7 +54,7 @@
 .detailsCard h1{
     font-weight: 500;
     font-size: 40px;
-    /* line-height:1.5rem; */
+    line-height: 280%;
     word-wrap: break-word;
 }
 .detailsCard p{
