@@ -1,0 +1,18 @@
+.head{
+    background-color:aquamarine;
+    /* width: 100%; */
+    display: flex;
+    justify-content:space-around;
+    padding: 30px 20px 30px 20px;
+
+}
+
+.head div{
+    background-color:blueviolet;
+}
+
+div.head div:nth-child(2){
+    /* background-color:antiquewhite; */
+    display: flex;
+    margin: 5px;
+}
