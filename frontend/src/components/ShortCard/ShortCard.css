@@ -1,0 +1,32 @@
+.shortCard{
+    padding: 41px 30px 41px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    text-align: center;
+    width: 20rem;
+}
+.shortCard img{
+    width:56px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.shortCard h4{
+    padding-bottom: 10px;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.3em;
+}
+
+
+.shortCard p{
+    font-weight: 300;
+    font-size: 16px;
+    font-family: Open Sans,Arial,sans-serif;
+    color: #666;
+    line-height: 1.8em;
+}

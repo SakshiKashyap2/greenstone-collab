@@ -1,0 +1,27 @@
+.largeCard{
+    max-width: 400px;
+    height: 440px;
+    text-align: center;
+    position: relative;
+    word-wrap: break-word;
+    width: 100%;
+    font-weight: 300;
+    line-height: 1.8em;
+}
+
+
+.largeCard .top{
+  
+}
+
+.largeCard h4{
+    padding: 0 0 10px 0;
+    position: absolute;
+    top: -60px;
+    width: 100%;
+    z-index: 2;
+    font-weight: 500;
+    font-size: 25px;
+    /* color: #fff !important; */
+    line-height: 1.3rem;
+}
