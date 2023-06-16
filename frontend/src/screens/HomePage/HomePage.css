@@ -83,4 +83,17 @@
   justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 40px 0 40px 0;
+}
+.s4{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 40px 0 40px 0;
+  background-color: rgb(247,249,246);
+}
+.s4 img{
+  width: 2048px;
+  aspect-ratio: auto 2048/1363;
 }

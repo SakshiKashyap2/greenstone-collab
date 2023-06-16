@@ -6,11 +6,17 @@ import Button from '@mui/material/Button'
 import ShortCard from "../../components/ShortCard/ShortCard";
 
 
-import Image1 from '../../assets/images/S2-Image1.png'
-import Image2 from '../../assets/images/S2-Image2.png'
-import Image3 from '../../assets/images/S2-Image3.png'
+import S2Image1 from '../../assets/images/S2-Image1.png'
+import S2Image2 from '../../assets/images/S2-Image2.png'
+import S2Image3 from '../../assets/images/S2-Image3.png'
 
 import LargeCard from "../../components/LargeCard/LargeCard";
+
+import S3Image1 from "../../assets/images/S3-Image1.jpg"
+import S3Image2 from "../../assets/images/S3-Image2.jpg"
+
+import S4Image1 from "../../assets/images/S4-Image1.jpg"
+
 const HomePage = () => {
 
     return (
@@ -47,19 +53,19 @@ const HomePage = () => {
 
             <div className="s2" >
                 <ShortCard 
-                    icon={Image1}
+                    icon={S2Image1}
                     heading='New Zealand & Overseas Staff'
                     subHeading='inc Philippines, South Africa, India etc'
             
                 />
                 <ShortCard 
-                    icon={Image2}
+                    icon={S2Image2}
                     heading='End to end Recruitment Process'
                     subHeading='Specialised visa support available'
             
                 />
                 <ShortCard 
-                    icon={Image3}
+                    icon={S2Image3}
                     heading='Experienced Recruiters Offering a Personalised Service'
                     subHeading='For both candidates and employers'
             
@@ -69,7 +75,7 @@ const HomePage = () => {
             <div className='s3' >
 
                     <LargeCard
-                        background={Image1}
+                        image={S3Image1}
                         title='Agricultural Work'
                         button1='FIND WORK'
                         b1Route='/'
@@ -77,13 +83,20 @@ const HomePage = () => {
                         b2Route='/'
                     />
                     <LargeCard
-                        background={Image1}
+                        image={S3Image2}
                         title='Engineering & Trade Work'
                         button1='FIND WORK'
                         b1Route='/'
                         button2='FIND STAFF'
                         b2Route='/'
                     />
+            </div>
+
+            <div className='s4' >
+                <div>
+                    <img src={S4Image1} alt='S4Image1' />
+                </div>
+                <div>Corousel</div>
             </div>
 
 
