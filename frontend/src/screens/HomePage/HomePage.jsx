@@ -16,6 +16,7 @@ import S3Image1 from "../../assets/images/S3-Image1.jpg"
 import S3Image2 from "../../assets/images/S3-Image2.jpg"
 
 import S4Image1 from "../../assets/images/S4-Image1.jpg"
+import CarouselComponent from "../../components/Carousel/Carousel";
 
 const HomePage = () => {
 
@@ -94,9 +95,11 @@ const HomePage = () => {
 
             <div className='s4' >
                 <div>
-                    <img src={S4Image1} alt='S4Image1' />
+                    {/* <img src={S4Image1} alt='S4Image1' /> */}
                 </div>
-                <div>Corousel</div>
+                <div>
+                    <CarouselComponent/>
+                </div>
             </div>
 
 

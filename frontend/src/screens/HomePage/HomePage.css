@@ -94,6 +94,6 @@
   background-color: rgb(247,249,246);
 }
 .s4 img{
-  width: 2048px;
+  /* width: 2048px; */
   aspect-ratio: auto 2048/1363;
 }
