@@ -5,12 +5,12 @@ import './HomePage.css';
 import Button from '@mui/material/Button';
 import ShortCard from '../../components/ShortCard/ShortCard';
 
-import MediumCard from '../../components/MediumCard'
+import MediumCard from '../../components/MediumCard/MediumCard'
 import LargeCard from '../../components/LargeCard/LargeCard';
 
-import S2Image1 from '../../components/images/S2-Image1.png';
-import S2Image2 from '../../components/images/S2-Image2.png';
-import S2Image3 from '../../components/images/S2-Image3.png';
+import S2Image1 from '../../assets/images/S2-Image1.png';
+import S2Image2 from '../../assets/images/S2-Image2.png';
+import S2Image3 from '../../assets/images/S2-Image3.png';
 
 import S3Image1 from '../../assets/images/S3-Image1.jpg';
 import S3Image2 from '../../assets/images/S3-Image2.jpg';
